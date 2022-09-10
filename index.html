@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/signin.css">
+    <title>SIGN IN</title>
+</head>
+<body>
+
+        
+    <section id="login-window">
+        <h1 class="heading">Welcome back!</h1>
+        <h2 class="heading">LOGIN</h2>
+        <form id="login" action="#">
+            <input type="email" placeholder="Enter Your Email Address" class="form-input" autocomplete="off" id="username">
+            <p class="error" id="email-error"> * Please fill up your Email !</p>
+            
+            <input type="password" placeholder="Enter Your Password" class="form-input" autocomplete="off" id="password" placeholder="Enter your password">
+            <p class="error" id="password-error"> * Password is required!</p>
+            
+            <div>
+                <input type="checkbox">
+                <span> Remember me </span>                 
+            </div>
+
+            <button class="login-btn">Login</button>
+        </form>
+
+        <p>or Login with</p>
+        <div class="social">
+            <button>
+                    <i class="fa-brands fa-facebook"></i> facebook 
+                </button>
+                <button>
+                    <i class="fa-brands fa-google"></i> Google
+                </button>
+            </div>
+
+            <p class="form-footer"> Don't have account?
+                <a href="/pages/signup.html" target="_blank">Sign Up</a>
+            </p>
+    </section>
+
+    <script src="/js/sign_in.js"></script>
+</body> 
+</html>
